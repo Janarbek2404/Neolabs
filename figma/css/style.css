@@ -85,3 +85,11 @@ section{
 .home-btns button{
     margin-right: 40px;
 }
+
+
+
+.home{
+    display: flex;
+    font-display: column;
+    
+}
