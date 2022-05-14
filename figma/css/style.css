@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Popins', 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1e53;
+    height: 92px;
+    padding: 16px 160px;
+
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    color: #bbbbcb;
+    font-size: 16px;
+    margin-right: 32px;
+}
+.nav-link:hover{
+    color: white;
+}
+.contact-us-btn{
+    bottom: 2px solid rgba(244,246,252,0.2);
+    border-radius: 41px;
+    color: #fff;
+    padding: 16px 48px;
+    background: none;
+}
+
+section{
+    padding: 128px 0;
+}
+.home{
+    display: flex;
+    background-color: #1c1e53;
+    color: #fff;
+}
+.home-head-text{
+    font-weight: 600;
+    font-size: 54px;
+    margin-bottom: 24px;
+
+}
+
+.home-description-text{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.home-description, .home-img{
+    width: 50%;
+}
+
+.home-img img{
+    width: 100%;
+}
+
+.home-btns{
+    display: flex;
+    align-items: center;
+}
+
+
+.home-btns button{
+    margin-right: 40px;
+}

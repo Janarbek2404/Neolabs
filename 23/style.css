@@ -1,0 +1,40 @@
+.input[type="text"],
+.input[type="color"]{
+    display: block;
+    width: 300px;
+    height: 20px;
+}
+
+p:nth-child(odd){
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+p:first-child{
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+    
+p:hover{
+    background-color: black;
+    color: white;
+}
+
+.input[type=checkbox]:checked{
+    margin-bottom: 100px;
+}
+
+.input[type=text]:focus{
+    background-color: black;
+    color: white;
+}
+
+
+p::before{
+    content: "Text";
+    margin-right: 50px;
+    color: blue;
+}
